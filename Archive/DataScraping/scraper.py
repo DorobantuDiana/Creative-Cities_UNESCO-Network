@@ -29,7 +29,7 @@ def get_coordinates(city_name):
     else:
         return None, None, None
     
-path = '/Users/ddx/Documents/chromedriver-mac-arm64/chromedriver'
+path = './chromedriver-mac-arm64/chromedriver'
 options = Options()
 options.headless = True
 options.add_argument("--headless=new")
